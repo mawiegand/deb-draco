@@ -1,7 +1,7 @@
 Source: draco
 Priority: optional
 Maintainer: Marcel Wiegand <wiegand@linux.com>
-Build-Depends: debhelper (>= 10)
+Build-Depends: dh-exec (>= 0.3), debhelper (>= 10), cmake
 Standards-Version: 4.1.2
 Section: libs
 Homepage: https://google.github.io/draco/

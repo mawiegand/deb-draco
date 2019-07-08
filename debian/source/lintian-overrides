@@ -1,0 +1,10 @@
+# ignore to long lines
+draco source: source-is-missing *.js line length is * characters (>512)
+
+# we don't support plugin
+draco source: source-is-missing maya/draco_maya/libdraco_maya_wrapper.so
+draco source: source-is-missing unity/Plugin/Android/arm64-v8a/libdracodec_unity.so
+draco source: source-is-missing unity/Plugin/Android/armeabi-v7a/libdracodec_unity.so
+
+# we don't support docs
+draco source: source-is-missing docs/assets/js/bootstrap.min.js

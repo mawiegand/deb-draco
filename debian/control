@@ -20,7 +20,7 @@ Description: Development package of Draco Library by Google Inc.
 
 Package: draco-bin
 Architecture: any
-Depends: ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Binaries of Draco Library by Google Inc.
  Draco is a library for compressing and decompressing 3D geometric
  meshes and point clouds. It is intended to improve the storage
